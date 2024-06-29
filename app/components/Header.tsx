@@ -18,7 +18,7 @@ const Header:React.FC = () => {
 
   <>
   
-  <nav className="md:flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] grid-cols-2 sm:grid ">
+  <nav className="md:flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] grid-cols-2 sm:grid xs:grid ">
   <Image
         src="/logo-03.png"
         className="mr-2"
@@ -69,7 +69,7 @@ className= {`${
     </div>
 
     <div className="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded ">
-        <a href="https://wa.me/550285999069335">
+        <a href="https://wa.me/5585999069335">
             <div className=" justify-end ">
                 <div className="flex items-center h-10 w-30 rounded-md bg-[#c8a876] hover:bg-[#c5a167] text-white font-medium p-2">
             
