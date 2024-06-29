@@ -18,10 +18,10 @@ const Header:React.FC = () => {
 
   <>
   
-  <nav className="flex md:flex-wrap items-center justify-between p-3 bg-[#e8e8e5]  ">
+  <nav className="md:flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] grid-cols-2 sm:grid ">
   <Image
-        src="/logo-03.svg"
-        className="ml-4"
+        src="/logo-03.png"
+        className="mr-2"
         alt="LOGO"
         width={150}  
         height={100} 
@@ -37,7 +37,7 @@ const Header:React.FC = () => {
         />
           <img 
           className={`toggle block ${menuOpen ? "block" : "hidden"
-            } `} 
+            }`   } 
           src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" 
           width="40" 
           height="40"
@@ -48,22 +48,22 @@ const Header:React.FC = () => {
     <div 
 className= {`${
     menuOpen ? "block" : "hidden"
-    } w-full md:w-auto md:flex text-center text-bold sm:text-bold mt-5 md:mt-0 md:border-none grid grid-cols-1 `}>
+    } w-full md:w-auto md:flex text-center text-bold mt-5 md:border-none  `}>
         <a 
         href="#home" 
-        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none sm:text-center ">Início
+        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none md:text-center ">Início
         </a>
         <a 
         href="#services" 
-        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none sm:text-center">Serviços
+        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none md:text-center">Serviços
         </a>
         <a 
         href="#contact" 
-        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none sm:text-center">Contato
+        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none md:text-center">Contato
         </a>
         <a 
         href="#gallery" 
-        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none sm:text-center">Galeria
+        className="block md:inline-block hover:text-[#c09858] px-3 py-3 md:border-none md:text-center">Galeria
         </a>
         
     </div>
