@@ -1,20 +1,22 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import React from "react";
 import Image from "next/image";
+import Btn from "./btn";
 
 const Main = () => {
     return(
 <>
 {/*  Nossos Serviços  */}
 
-<section className="py-10" id="services">
-    <div className="container mx-auto px-4 py-6">
-        <h2 className="text-3xl font-bold text-gray-800 mb-20 text-center"> Nosso Serviços </h2>
+<section className="py-10 sm:items-center " id="services">
+    <div className="container mx-auto px-4 py-6  ">
+        <h2 className=" flex flex-col
+         text-3xl font-bold text-gray-800 mb-20 text-center sm:text-xl "> Nosso Serviços </h2>
 
-        <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-8 ">
+        <div className="grid grid-cols  md:grid-cols-2 xl:grid-cols-3 gap-8  ">
           
           {/*Serviço 1 */}
-        <div className="flex flex-wrap items-center justify-between p-0">
+        <div className="flex flex-wrap items-center justify-between p-0 ">
          <div className=" w-[95%] bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 hover:shadow-lg">
             <Image src="/servicos1.jpg"  
             className=" h-64 object-cover "

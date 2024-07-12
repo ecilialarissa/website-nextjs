@@ -9,11 +9,8 @@ const config: Config = {
   theme: {
 
       screens: {
-        'xs': '100px',
+        'sm': '500px',
         
-        'sm': '200px',
-        // => @media (min-width: 640px) { ... }
-  
         'md': '768px',
         // => @media (min-width: 768px) { ... }
   
@@ -31,7 +28,7 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },

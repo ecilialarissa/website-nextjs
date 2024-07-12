@@ -1,18 +1,25 @@
 const Btn = () => {
     return(
         <>
-       
-       <div id="contact" className="flex justify-center items-center min-h-40 hover:scale-105">
+       { /* colorPallet: 
+            Pastel Brown: bg-[#c8a876]
+       */}
+        <div className=" flex flex-1 place-content-center py-10">
+       <div 
+        id="contact"
+        className=" w-1/2 h-12 items-center justify-center 
+        bg-[#c8a876] text-white font-medium rounded-full
+         hover:bg-[#c09858]  transition duration-200 sm:mt-40 md:w-1/3 place-content-center">
+
         <a 
         href="https://wa.me/550285999069335"
-        className=" rounded-full text-xl font-bold text-white bg-[#c8a876] hover:bg-[#c09858]  
-        py-3 px-4 w-1/2 text-center xl:w-4/6 2xl:w-3/3 "
-        
+        className=" rounded font-bold text-white text-center items-center text-xl  "
         >
-       
-       <h2 >
-         Marcar um horário </h2>
+        <h2>
+         Marcar um horário
+         </h2>
          </a>
+         </div>
          </div>
         </>
     );

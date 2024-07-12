@@ -18,7 +18,7 @@ const Header:React.FC = () => {
 
   <>
   
-  <nav className="md:flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] grid-cols-2 sm:grid xs:grid ">
+  <nav className="md:flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5] grid-cols-2">
   <Image
         src="/logo-03.png"
         className="mr-2"
@@ -26,10 +26,10 @@ const Header:React.FC = () => {
         width={150}  
         height={100} 
     />
-    <div className="flex md:hidden justify-end w-full  relative">
+    <div className="flex md:hidden justify-end w-full  ">
         <button id="hamburger" onClick={toggleMenu} >
           <img 
-          className={`toggle block ${menuOpen ? " hidden " : " block "  }`}
+          className={`toggle block ${menuOpen ? " hidden " : " block "  } ` }
           src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" 
           width="40" 
           height="40"
@@ -37,7 +37,7 @@ const Header:React.FC = () => {
         />
           <img 
           className={`toggle block ${menuOpen ? "block" : "hidden"
-            }`   } 
+            }   `} 
           src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" 
           width="40" 
           height="40"

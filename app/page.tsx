@@ -8,8 +8,9 @@ export default function Layout() {
 <>
 <Header/>
  <Hero/>
+ <Btn/>
  <Main/>
-<Btn/>
+ <Btn/>
 
     
 
